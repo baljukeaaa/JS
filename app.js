@@ -163,10 +163,10 @@
 //            max=number [i]
 //            Mindex=i
 //         }
-        
+
 //     }
 //     console.log(Mindex)
-    
+
 
 // let a =3;
 // let b =9;
@@ -191,10 +191,10 @@
 //         if (max< number [i]){
 //            max=number [i]
 //                   }
-        
+
 //     }
 //     console.log(Mindex)
-    
+
 
 // var a=9
 // var b=7
@@ -213,21 +213,7 @@
 // else if (b>c && b>a && b>d && b<a){
 //     console.log(b)
 // }
-// else if (b>c && b>a && b>d && b<c){
-//     console.log(b)
-// }
-// else if (c>a && c>b && c>d && c<d) {
-//     console.log(c)
-// }
-// else if (c>a && c>b && c>d && c<a) {
-//     console.log(c)
-// }
-// else if (c>a && c>b && c>d && c<b) {
-//     console.log(c)
-// }
-// else if (d>a && d>b && d>c && d<c) {
-//     console.log(d)
-// }
+// el
 // else if (d>a && d>b && d>c && d<a) {
 //     console.log(d)
 // }
@@ -248,7 +234,21 @@
 //             console.log(a)}
 // else if (b>a && b>d && b<c){
 //     console.log(b)}
-// else if (b>a && b>c && b<d){
+// else if (b>a && b>c && b<d){se if (b>c && b>a && b>d && b<c){
+//     console.log(b)
+// }
+// else if (c>a && c>b && c>d && c<d) {
+//     console.log(c)
+// }
+// else if (c>a && c>b && c>d && c<a) {
+//     console.log(c)
+// }
+// else if (c>a && c>b && c>d && c<b) {
+//     console.log(c)
+// }
+// else if (d>a && d>b && d>c && d<c) {
+//     console.log(d)
+// }
 //         console.log(b)}
 // else if (b>c && b>d && b<a){
 //             console.log(b)}
@@ -277,4 +277,420 @@
 //         }
 //     }
 // }
-        
+
+
+// let a=0
+// for(let i=0; i<1000; i++){
+//     if (i%3==0){
+//         a=a+i
+//     }}
+//     console.log(a)  
+
+// let a=0
+// for(let i=0; i<1000; i+=3){
+
+//         a=a+i
+
+
+//     }
+//     console.log(a)
+
+// let a=3, b=999
+
+// bayriig n solih
+// const too = [1, 9, 14, 2, 49]
+// for (let i = 0; i < too.length; i++) {
+
+//     for (let s = i+1; s < too.length; s++)
+//         if (too[i] > too[s]) { // too[i] --> 14 > 2
+//             let w = too[i]; //  w = 14
+//             too[i] = too[s] // 14 = 2
+//             too[s] = w      // 2 = w
+
+//         }
+
+
+// } console.log(too)
+
+// const person = { //Create an object
+//     name: "1",
+//     age: 2,
+//     city: "3"
+// }
+
+
+// const person2 = new Object(); //new Object()
+// person2.name = "4"
+// person2.age = 5,
+// person2.city = "6"
+
+
+// console.log(person2.age)
+// console.log(person["name"])
+
+// //1.3??
+
+// person.abc = {
+//     this: '56',
+//     that: '78'
+// }
+// console.log(person.abc.that);  //dot notation and bracket notation
+// console.log(person.abc['this']);
+
+// person.book ='fantasy';
+// console.log(person.book)
+
+// person.age = 45;
+// console.log(person.age)
+
+// person.greet = function() {
+//     console.log('hi');
+// };
+// person.greet();
+
+
+// const eprson2 = new Object(); //new Object()
+// person2.name = "4"
+// person2.age = 5,
+// person2.city = "6"
+// const propertyNames = Object.keys (person2)
+// console.log (propertyNames)
+
+// console.log (
+
+
+
+// )
+// const weather = [{
+//     "date": "2024-12-26",
+//     "temperature": {
+//         "current": -18.7,
+//         "min": -22.9,
+//         "max": -14.5
+//     }
+// },
+
+// {
+//     "date": "2024-12-27",
+//     "temperature": {
+//         "current": -19.2,
+//         "min": -24.0,
+//         "max": -14.4
+//     }
+// },
+// {
+//     "date": "2024-12-28",
+//     "temperature":
+//     {
+//         "current": -17.4,
+//         "min": -21.2,
+//         "max": -13.5
+//     }
+// },
+// {
+//     "date": "2024-12-29",
+//     "temperature":
+//     {
+//         "current": -16.4,
+//         "min": -22.0,
+//         "max": -10.7
+//     }
+// },
+// {
+//     "date": "2024-12-30",
+//     "temperature":
+//     {
+//         "current": -15.7,
+//         "min": -20.5,
+//         "max": -10.9
+//     }
+// },
+// {
+//     "date": "2024-12-31",
+//     "temperature":
+//     {
+//         "current": -17.4,
+//         "min": -22.7,
+//         "max": -12.1
+//     }
+// }, {
+//     "date": "2025-01-01",
+//     "temperature":
+//     {
+//         "current": -20.4,
+//         "min": -23.9,
+//         "max": -16.8
+//     }
+// },
+// {
+//     "date": "2025-01-02",
+//     "temperature":
+//     {
+//         "current": -20.1,
+//         "min": -25.8,
+//         "max": -14.3
+//     }
+// },
+// {
+//     "date": "2025-01-03",
+//     "temperature":
+//     {
+//         "current": -17.8,
+//         "min": -23.5,
+//         "max": -12.0
+//     }
+// },
+// {
+//     "date": "2025-01-04",
+//     "temperature":
+//     {
+//         "current": -18.3,
+//         "min": -22.4,
+//         "max": -14.2
+//     }
+// }, {
+//     "date": "2025-01-05",
+//     "temperature":
+//     {
+//         "current": -16.8,
+//         "min": -22.0,
+//         "max": -11.6
+//     }
+// },
+// {
+//     "date": "2025-01-06",
+//     "temperature":
+//     {
+//         "current": -16.6,
+//         "min": -22.4,
+//         "max": -10.7
+//     }
+// },
+// {
+//     "date": "2025-01-07",
+//     "temperature":
+//     {
+//         "current": -15.9,
+//         "min": -22.2,
+//         "max": -9.6
+//     }
+// },
+// {
+//     "date": "2025-01-08",
+//     "temperature":
+//     {
+//         "current": -15.6,
+//         "min": -21.9,
+//         "max": -9.3
+//     }
+// }
+// ]
+
+// // for(let i = 0 ; i < weather.length; i++){
+// //     let d = new Date();
+// //     let getMonth = d.getMonth();  //0
+// //     if(weather[i].date == getMonth){  //
+// //         console.log(weather[i].date)
+// //     }else{
+// //         console.log('test')
+// //     }
+// // }
+
+// // for (let i = 0; i < weather.length; i++) {
+// //     for (let j = i + 1; j < weather.length; j++) {
+// //         if (weather[i].date < weather[j].date) {
+// //             let r = weather[i];
+// //             weather[i] = weather[j];
+// //             weather[j] = r;
+// //         }
+// //     }
+// // } console.log(weather)
+
+
+// // for (let i = weather.length; i < weather.length; i++) {
+// //     for (let j = weather.length ; j < weather.length; j++) {
+// //         if (weather[i].date < weather[j].date) {
+// //             let r = weather[i];
+// //             weather[i] = weather[j];
+// //             weather[j] = r;
+// //         }
+// //     }
+// // } console.log(weather)  
+
+
+// // for (let i = weather.length - 7; i < weather.length; i++) {
+// //     for (let j = weather.length - 6; j < weather.length; j++) {
+// //         if (weather[i].date < weather[j].date) {
+// //             let r = weather[i];
+// //             weather[i] = weather[j];
+// //             weather[j] = r;
+// //         }
+// //     }
+// // } console.log(weather)  
+
+// // const ages = [24, 34, 35, 67, 14];
+// // for(let i = 0; i < ages.length; i++) {
+// //     if(ages[i] > 21){
+// //         console.log(ages[i])
+// //     }
+// // }
+
+// // const students = [
+// //     {
+// //         name: 'Sarnai', age: 24
+// //     },
+// //     {
+// //         name: 'Bold', age: 18
+// //     },
+// //     {
+// //         name: 'Bat', age: 43
+// //     },
+// // ]
+// // for(let i = 0; i < students.length; i++) {
+// // if(students[i].age > 21){
+// //     console.log(students[i].name)
+// // }
+// // }
+
+// // const names = [
+// //     "baljan",
+// //     "itgel",
+// //     "jamiyansuren",
+// //     "chingun",
+// //     "telmuun",
+// //     "chinguun",
+// //     "nomi",
+// //     "aygul",
+// //     "behbat",
+// //     "narangerel",
+// //     "oyunbat",
+// //     "turbat",
+// //     "baasandash",
+// //     "jargalsaihan",
+// //     "tugsbileg",
+// //     "huwituguldur",
+// //     "ursaa",
+// //     "ider",
+// //     "ariunjargal",
+// //   ];
+// //   for(let i = 0; i < names.length; i++) {
+// // for(let j = i + 1; j < names.length; j++){
+// //         console.log(names[i], names[j])
+// // }
+// //   }
+// // let a = {};
+// // for(let i = 0; i < names.length; i++) {
+// //     a = names[i][1];
+
+// //     console.log(a, names[i])
+// //       }
+
+// // let a = [];
+// // for(let i = 0; i < names.length; i++) {
+// //     a = a + names[i][1];
+
+
+// //       }
+
+
+// nums = [4,3,2,1]
+// for (let i = 0; i < nums.length; i++) {
+//     for (let k = i + 1; k < nums.length; k++) {
+//         if (nums[k] == nums[i]) {
+//             console.log((true))
+//         }
+//         else { console.log(false) }
+//     }
+// }
+
+// import chalk from 'chalk';
+
+// // console.log(chalk.blue('Hello world!'));
+
+// console.log(chalk.green.bold('Hello') + ' World' + chalk.red('!'));
+
+
+// import { dir } from 'console'
+// import fs from 'fs'
+// import path from 'path'
+//   fs.writeFile('./logs/test2.txt' , 'tested',(err,data) =>{
+//     if(err) {
+//       console.log(err)
+//       return;
+//     }
+//     console.log(data)
+//   })
+
+// fs.writeFile('./logs/test2.txt' , 'tested',(err,data) =>{
+
+// })
+
+// import fs from 'fs'
+// import path from 'path'
+// //   fs.writeFile('./logs/test2.txt' , 'tested',(err,data) =>{
+// //     if(err) {
+// //       console.log(err)
+// //       return;
+// //     }
+// //     console.log(data)
+// //   })
+//   fs.readdir("./logs",'utf8',(err,data)=>{
+//     if(err){
+//       console.log(err);
+//     }else{
+//       console.log(data);
+//     }
+//   })
+
+// import fs from 'fs'
+// fs.readdir("./test",'utf8',(err,data)=>{
+// // const fs = require ('test');
+// // const jsonData = require ('./test.json');
+// // jsonData.key = 'new value';
+// // fs.writeFileSync('./test/test.json', JSON.stringify(jsonData, null, 2));
+// // console.log('');
+// fs.writeFileSync('./test/test.json',"book1")
+// fs.writeFileSync('./test/test.json',"ggg")
+// })
+
+
+// const fs = require('fs');
+// fs.readFile('data.json', 'utf8', (err, data) => {
+//  if (err) {
+//    console.error('Error reading the file:', err);
+//    return;
+//  }
+ 
+//  let jsonData = JSON.parse(data);
+ 
+//  jsonData.newKey = "newValue"; 
+//  fs.writeFile('data.json', JSON.stringify(jsonData, null, 2), (err) => {
+//    if (err) {
+//      console.error('Error writing the file:', err);
+//    } else {
+//      console.log('Successfully added the new element to the JSON file.');
+//    }
+//  });
+// });
+
+
+
+import fs from 'fs'
+const read = fs.readFileSync("./gg.json",'utf8')
+// fs.writeFileSync('./gg/gg.json',"book1")
+// console.log(read)
+// var obj = 
+// fs.writeFileSync('./gg/gg.json',"book1")
+
+
+// var obj = JSON.parse(read);
+var obj = {}
+obj["name"]= "balju"
+obj["seatnumber"]=33
+// console.log(obj)
+// console.log("obj")
+// console.log(read)
+let myJson = JSON.parse(read)
+myJson.push(obj);
+console.log(myJson)
+fs.writeFileSync("./gg.json",json,String)
