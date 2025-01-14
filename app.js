@@ -693,4 +693,4 @@ obj["seatnumber"]=33
 let myJson = JSON.parse(read)
 myJson.push(obj);
 console.log(myJson)
-fs.writeFileSync("./gg.json",json,String)
+fs.writeFileSync("./gg.json",JSON.stringify(myJson, null, 4))

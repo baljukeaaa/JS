@@ -1,10 +1,14 @@
 [
     {
-        "name":"orgilbagsh",
-        "seatNumber" : "3a"
+        "name": "orgilbagsh",
+        "seatNumber": "3a"
     },
     {
-        "name":"naraabagsh",
-        "seatNumber" : "3b"
+        "name": "naraabagsh",
+        "seatNumber": "3b"
+    },
+    {
+        "name": "balju",
+        "seatnumber": 33
     }
 ]
