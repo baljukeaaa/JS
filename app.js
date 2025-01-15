@@ -675,22 +675,79 @@
 
 
 
+// import fs from 'fs'
+// const read = fs.readFileSync("./gg.json",'utf8')
+// // fs.writeFileSync('./gg/gg.json',"book1")
+// // console.log(read)
+// // var obj = 
+// // fs.writeFileSync('./gg/gg.json',"book1")
+
+
+// // var obj = JSON.parse(read);
+// var obj = {}
+// obj["name"]= "balju"
+// obj["seatnumber"]=33
+// // console.log(obj)
+// // console.log("obj")
+// // console.log(read)
+// let myJson = JSON.parse(read)
+// myJson.push(obj);
+// console.log(myJson)
+// fs.writeFileSync("./gg.json",JSON.stringify(myJson, null, 4))
+const deleteStudent = (c)=>{
+    let data = JSON.parse(fs.readFileSync("./gg.json", 'utf8'))
+    const result = data.filter(IdCheck);
+    function IdCheck(a) {
+        return a.id != b;
+    }
+    fs.writeFileSync("./gg.json", JSON.stringify(result))
+}
 import fs from 'fs'
-const read = fs.readFileSync("./gg.json",'utf8')
-// fs.writeFileSync('./gg/gg.json',"book1")
-// console.log(read)
-// var obj = 
-// fs.writeFileSync('./gg/gg.json',"book1")
+const read =  () => {
+    let data = fs.readFileSync("./gg.json", 'utf8')
+    return JSON.parse(data)
+}
+// console.log(read())
+const student = {
+    id: '',
+    name : "test",
+    seatnumber : "3c"
+}
+const add = (student)=>{
+    let data = JSON.parse(fs.readFileSync("./gg.json", 'utf8'))
+    data.unshift(student)
+    fs.writeFileSync("./gg.json",JSON.stringify(data))
+}
+add(student)
+const updateStudentName = (oldName, newName) => {
+    let data = JSON.parse(fs.readFileSync("./gg.json", 'utf8'));
+    
+    data.forEach(student => {
+        if (student.name === oldName) {
+            student.name = newName;
+        }
+    });
+    fs.writeFileSync("./gg.json", JSON.stringify(data, null, 4)); 
+}
+updateStudentName("test","batprgil")
 
+const createStudent = (newStudent) => {
+    let data = JSON.parse(fs.readFileSync("./gg.json", 'utf8'))
+    data.unshift(newStudent)
+    fs.writeFileSync("./gg.json",JSON.stringify(data, null, 2))
+} 
+const updateStudent = () => {} 
+// const deleteStudent = () => {} 
+const readStudents = () => {} 
 
-// var obj = JSON.parse(read);
-var obj = {}
-obj["name"]= "balju"
-obj["seatnumber"]=33
-// console.log(obj)
-// console.log("obj")
-// console.log(read)
-let myJson = JSON.parse(read)
-myJson.push(obj);
-console.log(myJson)
-fs.writeFileSync("./gg.json",JSON.stringify(myJson, null, 4))
+createStudent({
+    id: 21,
+    name: 'Baljan',
+    seatNumber: '3C'
+});
+
+createStudent({
+    id: 23,
+    name: 'Erka',
+    seatNumber: '3C'
+});
